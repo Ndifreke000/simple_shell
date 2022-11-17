@@ -31,7 +31,6 @@ node = node->next;
 }
 return (NULL);
 }
-
 /**
 * _mysetenv - Initialize a new environment variable,
 *             or modify an existing one
