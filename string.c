@@ -1,5 +1,4 @@
 #include "shell.h"
-
 /**
 * _strlen - returns the length of a string
 * @s: the string whose length to check
@@ -17,7 +16,6 @@ while (*s++)
 i++;
 return (i);
 }
-
 /**
 * _strcmp - performs lexicogarphic comparison of two strangs.
 * @s1: the first string
@@ -65,7 +63,6 @@ return ((char *)haystack);
 char *_strcat(char *dest, char *src)
 {
 char *ret = dest;
-
 while (*dest)
 dest++;
 while (*src)
