@@ -10,7 +10,6 @@ int interactive(info_t *info)
 {
 return (isatty(STDIN_FILENO) && info->readfd <= 2);
 }
-
 /**
 * is_delim - checks if character is a delimeter
 * @c: the char to check
@@ -24,7 +23,6 @@ if (*delim++ == c)
 return (1);
 return (0);
 }
-
 /**
 *_isalpha - checks for alphabetic character
 *@c: The character to input
@@ -38,7 +36,6 @@ return (1);
 else
 return (0);
 }
-
 /**
 *_atoi - converts a string to an integer
 *@s: the string to be converted
