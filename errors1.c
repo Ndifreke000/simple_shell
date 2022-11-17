@@ -27,7 +27,6 @@ return (-1);
 }
 return (result);
 }
-
 /**
 * print_error - prints an error message
 * @info: the parameter & return info struct
